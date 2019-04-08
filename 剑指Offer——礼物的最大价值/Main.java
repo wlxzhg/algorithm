@@ -15,6 +15,7 @@ public class Main {
 		System.out.println(m.getMaxValue(values));
 	}
 
+	//只使用一维数组
 	public int getMaxValue(int[][] values) {
 		int row = values.length,col = values[0].length;
 		int[] dp = new int[col];
